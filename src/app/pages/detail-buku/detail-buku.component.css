@@ -1,0 +1,185 @@
+.bookDetail
+{
+    background-color: #fff;
+}
+button
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.img-book
+{
+    /* border: 1px solid gray; */
+    padding: 8px;
+}
+.detailBuku
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.detail-harga
+{
+    padding-left: 60px;
+}
+.harga
+{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+/* .comment
+{
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+ } */
+.beli
+{
+    margin-left: 0px;
+    padding-left: 9px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.comment
+{
+    display: flex;
+    list-style: none;
+}
+/* textarea
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+} */
+span
+{
+    color: var(--primary-color);
+}
+.stock
+{
+    font-size: 18px;
+}
+.title
+{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 130px;
+}
+.submit
+{
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    float: right;
+}
+form
+{
+    margin-bottom: 50px;
+}
+.review
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.title-page
+{
+    margin-top: 130px;
+    font-size: 18px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.card-review
+{
+    margin-left: auto;
+}
+.review-card
+{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.quantity
+{
+    display: flex;
+}
+.quantity button
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    border-radius: 0;
+    background: var(--primary-color);
+    margin-right: 0;
+    height: 35px;
+}
+.quantity input
+{
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    box-shadow: none !important;
+}
+.listdetail
+{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.listdetail li
+{
+    list-style: none;
+    margin-right: 40px;
+}
+.listdetail li p a
+{
+    margin: 0px 8px;
+    font-size: 20px;
+}
+.garis_verikal
+{
+    border-left: 1px gray solid;
+    height: auto;
+    width: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+.diskon
+{
+    font-size: 25px;
+}
+.bookBox
+{
+    align-items:center;
+    text-align: center;
+}
+.bookBox img
+{
+    width: 120px;
+    height: 180px;
+    
+}
+.bookBox h1
+{
+    font-size: 18px;
+    margin-top: 5px;
+    color: black;
+}
+.pengarang
+{
+    font-size: 15px;
+    color: black;
+}
+a
+{
+    text-decoration: none;
+}
+.books
+{
+    background-color: #fff;
+    margin-top: 0px;
+}

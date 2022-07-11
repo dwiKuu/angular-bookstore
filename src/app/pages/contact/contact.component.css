@@ -1,0 +1,67 @@
+
+.title
+{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 130px;
+}
+.btn
+{
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    float: right;
+}
+.form
+{
+    margin-bottom: 100px;
+}
+i{
+    padding: 0px 10px;
+    font-size: 25px;
+}
+.sosmed
+{
+    margin-bottom: 60px;
+}
+.kategori img
+{
+    width: 300px;
+    height: 225px;
+    filter: brightness(30%);
+    position: relative;
+
+}
+.option
+{
+    margin-bottom: 100px;
+}
+a
+{
+    text-decoration: none;
+}
+.title-kategori
+{
+    color: black;
+    font-size: 18px;
+}
+.card
+{
+    width: auto;
+    height: auto;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.submit
+{
+    background-color: var(--primary-color);
+}
+.edit
+{
+    float: right;
+}

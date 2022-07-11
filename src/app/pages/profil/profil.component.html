@@ -1,0 +1,46 @@
+<div class="container mt-5">
+    <div class="row banner">
+        <div *ngFor="let pf of detailProfil">
+            <div class="profil">    
+                <img class="ftProfil mb-3" src="{{pf.ftProfil}}" alt="" />
+                <h1>{{pf.userName}}</h1>
+            </div>        
+        </div>
+    </div>
+</div>
+<div class="container mb-5">
+    <div class="row infoAkun">
+        <div class="col-lg-5 mb-5">
+            <h2 class="mt-5 text-center">Info Pribadi</h2>
+            <i class="edit bi bi-pencil-square"></i>
+            <div *ngFor="let pf of detailProfil">
+                <div class="personalInfo mt-3 mb-5">
+                    <p>Nama: {{pf.name}}</p>
+                    <p>User Name: {{pf.userName}}</p>
+                    <p>Email: {{pf.email}}</p>
+                    <p>Alamat: {{pf.alamat}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-1 garis_verikal text-center mt-5 mb-5"></div>
+        <div class="col-lg-6 mb-5">
+            <h2 class="mt-5 text-center">Pesanan Saya</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Judul Buku</th>
+                        <th scope="col"class="text-center">Jumlah</th>
+                        <th scope="col" class="text-center">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let b of books;index as i">
+                    <tr class="data-order" *ngIf="i<=5">
+                        <td>{{b.judulBuku}}</td>
+                        <td class="text-center">{{b.jumlahBuku}}</td>
+                        <td class="text-center"><button class="btn btn-danger bg-danger order" type="button">Batalkan</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

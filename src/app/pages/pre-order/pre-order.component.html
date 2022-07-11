@@ -1,0 +1,33 @@
+<div class="container mb-5 mt-5">
+    <div class="row">
+        <div class="list-group">
+            <ul class="list">
+                <li>
+                    <a class="btn" (click)="goToKategori('kategori')">Kategori</a>
+                </li>
+                <li>
+                    <a class="btn" (click)="goToNewBook('newBook')">Buku Baru</a>
+                </li>
+                <li>
+                    <a class="btn" (click)="goToPopularBook('popularBook')">Buku Populer</a>
+                </li>
+                <li>
+                    <a class="btn" (click)="goToPreOrder('preOrder')">Pre-Order</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h2 class="title">Books</h2>
+    <div class="row books">
+        <div class="col-lg-2 mt-5" *ngFor="let bd of books">
+            <a class="clickDetail">   
+                <div class="bookBox" [routerLink]="['/detail',bd.id]">
+                    <img src="{{bd.bookImg}}" />
+                    <h1>{{bd.titleName}}</h1>
+                    <p class="pengarang">{{bd.pengarang}}</p>
+                    <p class="harga-book">{{bd.hargaBuku}}</p>
+                </div>
+            </a> 
+        </div>
+    </div>
+</div>

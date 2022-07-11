@@ -1,0 +1,42 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+        <a class="navbar-brand logo" href="#"><img src="assets/img/booksto (3).png" width="30" height="30"><span>Bookstore</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <form class="cari">
+                    <input class="search" type="text" placeholder="search.." required>
+                    <button class="button" type="button"><i class="bi bi-search"></i></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="books" routerLinkActive="active-link">Buku</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle"id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kategori
+                        </a>
+                        
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <div *ngFor="let kt of nameKategori">
+                                    <li><a class="dropdown-item" [routerLink]="['/kategori',kt.id]">{{kt.kategori}}</a></li>
+                                </div>
+                            </ul>
+                        
+                        
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Kontak</a>
+                </li>
+            </ul>
+            <a class="nav-link profil" routerLink="profil" routerLinkActive="active-link"><img class="gambar-profil" src="/assets/img/fotoProfil.png" alt=""></a>
+        </div>
+    </div>
+</nav>

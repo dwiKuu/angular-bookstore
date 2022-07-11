@@ -1,0 +1,110 @@
+.bookBox
+{
+    align-items:center;
+    text-align: center;
+}
+.bookBox img
+{
+    width: 120px;
+    height: 180px;
+    
+}
+.bookBox h1
+{
+    font-size: 18px;
+    margin-top: 10px;
+    color: black;
+}
+.pengarang
+{
+    font-size: 15px;
+    color: black;
+}
+.card
+{
+
+    width: 100px;
+    height: 130px;
+}
+a
+{
+    text-decoration: none;
+}
+.books
+{
+    background-color: #fff;
+    margin-top: 0px;
+}
+.list-group
+{
+    margin-top: 60px;
+}
+.list-group .list
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    white-space: nowrap;
+}
+.list-group .list li
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+.list-group .list li a
+{
+    color: #fff;
+}
+.list-group .list li a:hover
+{
+    background-color: #7bb8f5;
+}
+.kategori-list
+{
+    display: flex;
+}
+.list-group .list li .list-link.active-link
+{
+    background-color: #5fa7f0;
+}
+.list-kategori .kategori
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    white-space: nowrap;
+    box-shadow: none !important;
+
+}
+.list-kategori .kategori li
+{
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #c1e0ff;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+.list-kategori .kategori li a
+{
+    color: var(--primary-color);
+}
+.kategori-group
+{
+    margin-top: 5px;
+}
+.title
+{
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.harga-book
+{
+    color: var(--primary-color);
+}

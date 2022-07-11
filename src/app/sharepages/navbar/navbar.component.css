@@ -1,0 +1,57 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.gambar-profil
+{
+    border: 1px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid;
+}
+.navbar-light .nav-link
+{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.navbar-light .nav-link.active-link
+{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.search
+{
+    padding: 2px 25px;
+    border: 2px solid var(--primary-color);
+    width: auto;
+}
+.button
+{
+    position: relative;
+    padding: 2px 10px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.cari
+{
+    margin-right: 20px;
+}
+.logo
+{
+    font-family: 'Staatliches';
+    margin: 10px;
+}
+span
+{
+    margin-left: 5px;
+    color: #03989E;
+}
