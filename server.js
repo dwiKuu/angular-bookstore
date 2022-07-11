@@ -1,12 +1,11 @@
-const express = require('express');
-const path = require('path');
+let exprexss = require('express');
 
-const app = express();
+let app = exprexss();
 
-app.use(express.static(__dirname + '/dist/bookstore'));
+app.use(exprexss.static(__dirname+'/dist/bookstore'));
 
-app.use('/*', function(req,res) {
-    res.sendFile(path.join(__dirname+'/dist/bookstore/index.html'));
+app.get('/*', (req, resp)=>{
+    resp.sendFile(__dirname+'/dist/bookstore/index.html')
 });
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8080)
