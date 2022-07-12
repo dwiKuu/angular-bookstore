@@ -38,6 +38,8 @@ a
 .list-group
 {
     margin-top: 60px;
+    width: auto;
+    overflow-x: scroll;
 }
 .list-group .list
 {
@@ -46,6 +48,7 @@ a
     padding: 0px;
     display: flex;
     white-space: nowrap;
+    margin-bottom: 5px;
 }
 .list-group .list li
 {
