@@ -63,7 +63,7 @@ h2
 }
 .carousel-item
 {
-    height: 600px;
+    height: auto;
 }
 .gambar-carousel
 {
@@ -81,4 +81,8 @@ h2 a:hover
 .harga-book
 {
     color: var(--primary-color);
+}
+.carousel-inner
+{
+    height: auto;
 }
